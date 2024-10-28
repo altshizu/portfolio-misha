@@ -1,4 +1,4 @@
-import { email, linkedin, name } from "../constants";
+import { about, email, linkedin, name } from "../constants";
 import { FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 
@@ -13,10 +13,7 @@ export default function Hero() {
                     </span>
                 </h2>
                 <p className="mb-8 p-2 text-xl">
-                    {`Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quisquam, reiciendis blanditiis eligendi, labore iure magni
-                    architecto rem beatae maxime eius, facilis velit. Cumque,
-                    quod suscipit!`}
+                    {about}
                 </p>
                 <div className="-mb-[10rem] lg:-mt-5 flex space-x-4 p-2">
                     <a href={`${linkedin}`} target="_blank" rel="noopener noreferrer">
