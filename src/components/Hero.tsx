@@ -1,4 +1,6 @@
 import { email, linkedin, name } from "../constants";
+import { FaLinkedin } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
 
 export default function Hero() {
     return (
@@ -18,10 +20,10 @@ export default function Hero() {
                 </p>
                 <div className="-mb-[10rem] lg:-mt-5 flex space-x-4 p-2">
                     <a href={`${linkedin}`} target="_blank" rel="noopener noreferrer">
-                        <img src="https://placehold.co/32x32" alt="LinkedIn" className="w-8 h-8" />
+                        <FaLinkedin size={25} className="hover:text-gray-300 transition duration-300" />
                     </a>
                     <a href={`mailto:${email}`} target="_blank" rel="noopener noreferrer">
-                        <img src="https://placehold.co/32x32" alt="Mail" className="w-8 h-8" />
+                        <IoIosMail size={25} className="hover:text-gray-300 transition duration-300" />
                     </a>
                 </div>
             </div>
