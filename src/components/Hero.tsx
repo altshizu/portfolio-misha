@@ -8,7 +8,7 @@ export default function Hero() {
             <div className="w-full md:w-1/2">
                 <h2 className="-my-8 p-2 text-4xl font-bold md:text-5xl lg:text-[7rem] -mb-[1.5px]">
                     hi, i'm {``}
-                    <span className="bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent">
+                    <span className="bg-gradient-to-r from-pink-300 to-purple-500 bg-clip-text text-transparent">
                         {name.split(' ')[0].toLowerCase()}
                     </span>
                 </h2>
