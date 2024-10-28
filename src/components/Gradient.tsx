@@ -6,11 +6,24 @@ import { useEffect, useState } from "react"
 export default function Gradient() {
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
 
-    useEffect(() => {
-        const updateMousePosition = (ev: MouseEvent) => {
-            setMousePosition({ x: ev.clientX, y: ev.clientY })
+    const throttle = (callback: (ev: MouseEvent) => void, delay: number) => {
+        let lastCall = 0
+        return (event: MouseEvent) => {
+            const now = new Date().getTime()
+            if (now - lastCall >= delay) {
+                lastCall = now
+                callback(event)
+            }
         }
+    }
+
+    useEffect(() => {
+        const updateMousePosition = throttle((ev: MouseEvent) => {
+            setMousePosition({ x: ev.clientX, y: ev.clientY })
+        }, 16)
+
         window.addEventListener('mousemove', updateMousePosition)
+
         return () => {
             window.removeEventListener('mousemove', updateMousePosition)
         }
@@ -31,7 +44,7 @@ export default function Gradient() {
             transition={{
                 x: { type: 'spring', damping: 10 },
                 y: { type: 'spring', damping: 10 },
-                background: { duration: 10, repeat: Infinity },
+                background: { duration: 2, repeat: Infinity },
                 scale: { duration: 2, repeat: Infinity },
             }}
         />
