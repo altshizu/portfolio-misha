@@ -1,4 +1,4 @@
-import { about, email, linkedin, name } from "../constants";
+import { about, email, image, linkedin, name } from "../constants";
 import { FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 
@@ -26,7 +26,7 @@ export default function Hero() {
             </div>
             <div className="w-full md:w-1/2 lg:p-8">
                 <div className="flex justify-center">
-                    <img src="https://placehold.co/550x550" alt="" className="rounded-3xl" />
+                    <img src={image ? image : 'https://placehold.co/550x550'} alt="" className="rounded-3xl" />
                 </div>
             </div>
         </section>

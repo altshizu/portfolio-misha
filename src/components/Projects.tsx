@@ -9,7 +9,7 @@ export default function Projects() {
                 {projects.map((project) => (
                     <div key={project.id} className="group relative overflow-hidden rounded-3xl">
                         <img
-                            src={project.image}
+                            src={project.image ? project.image : 'https://placehold.co/350x350'}
                             alt={project.name}
                             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
                         />
