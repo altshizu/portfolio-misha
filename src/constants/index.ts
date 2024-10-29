@@ -2,6 +2,7 @@ export const linkedin = "https://www.linkedin.com/in/misha-tuyet-nhi-lam-36a3693
 export const email = "";
 export const name = "Misha Tuyet Nhi Lam"
 export const image = "";
+export const birthday = "2008-08-07" 
 export const about = [
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
     "Quisquam, reiciendis blanditiis eligendi, labore iure magni ",
