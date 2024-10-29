@@ -3,8 +3,10 @@ import Footer from "./components/Footer";
 import Gradient from "./components/Gradient";
 import Projects from "./components/Projects";
 import Navbar from "./components/Navbar";
+import About from "./pages/About";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-export default function App() {
+function MainLayout() {
   return (
     <div className="relative h-full overflow-y-auto antialiased bg-black">
       <Navbar />
@@ -18,5 +20,16 @@ export default function App() {
       </div>
       <Footer />
     </div>
-  )
+  );
+}
+
+export default function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainLayout />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
+  );
 }
