@@ -11,7 +11,7 @@ export default function Projects() {
                         <img
                             src={project.image ? project.image : 'https://placehold.co/350x350'}
                             alt={project.name}
-                            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                            className="h-[350px] w-full object-cover transition-transform duration-500 group-hover:scale-110"
                         />
                         <div className="absolute inset-0 flex flex-col items-center justify-center text-black opacity-0 backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-100">
                             <h3 className="mb-2 text-xl">{project.name}</h3>
