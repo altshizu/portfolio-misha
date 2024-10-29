@@ -36,8 +36,8 @@ export default function Gradient() {
                 x: mousePosition.x - 128,
                 y: mousePosition.y - 128,
                 background: [
-                    'radial-gradient(circle, rgba(255,255,255,0.5), rgba(255,255,255,0.5), rgba(255,255,255,0.5))',
-                    'radial-gradient(circle, rgba(255,255,255,0.5), rgba(255,255,255,0.5), rgba(255,255,255,0.5))',
+                    'linear-gradient(to right, #cd7de3, #734092)', 
+                    'linear-gradient(to right, #cd7de3, #734092)',
                 ],
                 scale: [1, 1.2, 1]
             }}
