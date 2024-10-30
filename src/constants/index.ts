@@ -53,4 +53,25 @@ export const projects = [
         image: "",
         link: ""
     },
+    {
+        id: 7,
+        name: "Placeholder Project 7",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, reiciendis blanditiis eligendi, labore iure magni architecto rem beatae maxime eius, facilis velit. Cumque quod suscipit!",
+        image: "",
+        link: ""
+    },
+    {
+        id: 8,
+        name: "Placeholder Project 8",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, reiciendis blanditiis eligendi, labore iure magni architecto rem beatae maxime eius, facilis velit. Cumque quod suscipit!",
+        image: "",
+        link: ""
+    },
+    {
+        id: 9,
+        name: "Placeholder Project 9",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, reiciendis blanditiis eligendi, labore iure magni architecto rem beatae maxime eius, facilis velit. Cumque quod suscipit!",
+        image: "",
+        link: ""
+    },
 ]
