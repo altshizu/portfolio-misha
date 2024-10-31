@@ -14,7 +14,7 @@ export default function Projects() {
                         />
                         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 rounded-lg opacity-0 backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-100">
                             <div className="p-4">
-                                <h3 className="mb-2 text-xl text-white">{project.name}</h3>
+                                <h3 className="mt-10 text-xl text-white">{project.name}</h3>
                                 <p className="mb-12 text-white">{project.description}</p>
                                 {project.link && (
                                     <a href={project.link} target="_blank" rel="noopener noreferrer" className="rounded-full px-4 py-2 text-white">
