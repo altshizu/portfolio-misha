@@ -30,41 +30,41 @@ export const projects = [
         name: "Edit af Iza Cryssanthander",
         description: "Det her er en af min egne projekter. Det er et edit af den ene influencer tvillingsøster Iza og det skulle være et fødselsdags edit til min internetven. Det er et transition edit og jeg har brugt forskellige elementer. Der er fx det der kamerafokus og en slags collage. Det er min egen idé og alt er lavet i After Effects. – Juli 2022",
         image: "./projects/iza cryss thumbnail.webp",
-        link: "https://roskildetekniskeskole-my.sharepoint.com/:v:/r/personal/u2479284_rts-365_dk/Documents/Mine%20Edits%20-%20Misha%27s%20Portfolio/iza%20cryss%20edit.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dcXaEN"
+        link: "https://drive.google.com/file/d/1KvvZlrSCLL7E5awy_5aCFh_9Q_MJAKHA/view?usp=drive_link"
     },
     {
         id: 5,
         name: "Edit af Dahyun fra tripleS",
         description: "Det her er en af min egne projekter. Det er et edit af Dahyun fra KPOP-pigegruppen tripleS. Det er et transition edit og jeg har også brugt 3D til at lave kuben. Jeg har brugt en masse overlays og webp’er. Den lyserøde farve går igennem hele editet som en rød tråd. Det er min ege idé og alt er lavet i After Effects. – Juli 2024 ",
         image: "./projects/dahyun thumbnail.webp",
-        link: "https://roskildetekniskeskole-my.sharepoint.com/:v:/r/personal/u2479284_rts-365_dk/Documents/Mine%20Edits%20-%20Misha%27s%20Portfolio/dahyun%20edit.MP4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1aKzeS"
+        link: "https://drive.google.com/file/d/1sFBDcYrNaggRVfPjfi1B_ilVW9cofPi8/view?usp=drive_link"
     },
     {
         id: 6,
         name: "Edit af Elle Cryssanthander",
         description: "Det her er en af min egne projekter. Det er et edit af den anden influencer tvillingsøster Elle og det skulle være et fødselsdags edit til min internetven. Det er et transition edit med fokus på masking. Jeg fik bl.a. idéen ved at skrive noget tekst på en linje mellem to masks. Alt er lavet i After Effects. – September 2023 ",
         image: "./projects/elle cryss thumbnail.webp",
-        link: "https://roskildetekniskeskole-my.sharepoint.com/:v:/r/personal/u2479284_rts-365_dk/Documents/Mine%20Edits%20-%20Misha%27s%20Portfolio/elle%20cryss%20edit.MP4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AGmYwI"
+        link: "https://drive.google.com/file/d/1P86GO4hRKL70-cHehl5Bd-gqQWGQvY5g/view?usp=drive_link"
     },
     {
         id: 7,
         name: "Edit af Jihyun der var med i RUNext",
         description: "Det her er en af min egne projekter. Det er et edit af Jihyun der var med i KPOP-survival showet RUNext. Det er min egen version af en populær editing trend fra 2023. Det er et transition edit og stilen er en smule warpy. Jeg har også brugt overlays og webp’er til at pynte. Alt er lavet i After Effects. - August 2023  ",
         image: "./projects/jihyun thumbnail.webp",
-        link: "https://roskildetekniskeskole-my.sharepoint.com/:v:/r/personal/u2479284_rts-365_dk/Documents/Mine%20Edits%20-%20Misha%27s%20Portfolio/jihyun%20edit.MP4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bsfJsv"
+        link: "https://drive.google.com/file/d/1IRjWuv2rbBvF8r-Xu_1DhygGittGm_U_/view?usp=drive_link"
     },
     {
         id: 8,
         name: "Edit af tripleS LOVElution",
         description: "Det her er en af min egne projekter. Det er et edit af KPOP-pigegruppen tripleS LOVElution. Det er et transition edit og stilen på editet er warpy. Den er mere simpel og mørk. Jeg har fokuseret på masking og shakes. Det er min egen idé og alt er lavet i After Effects. – Oktober 2024  ",
         image: "./projects/lovelution thumbnail.webp",
-        link: "https://roskildetekniskeskole-my.sharepoint.com/:v:/r/personal/u2479284_rts-365_dk/Documents/Mine%20Edits%20-%20Misha%27s%20Portfolio/lovelution%20edit.MP4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7D73vw"
+        link: "https://drive.google.com/file/d/1ot7mGgaLeWslN67ZrQonDWgD_3ABhvjR/view?usp=drive_link"
     },
     {
         id: 9,
         name: "Edit af Sullyoon fra NMIXX",
         description: "Det her er en af min egne projekter. Det er et edit af Sullyoon fra KPOP-pigegruppen NMIXX og det skulle være et edit til min internetven. Stilen er mere en soft basic velocity. Den er relativt nemt at lave og alt det hårde arbejde har mest været på introen. Det er min egen idé og alt er lavet i After Effects. – Februar 2024 ",
         image: "./projects/sullyoon thumbnail.webp",
-        link: "https://roskildetekniskeskole-my.sharepoint.com/:v:/r/personal/u2479284_rts-365_dk/Documents/Mine%20Edits%20-%20Misha%27s%20Portfolio/sullyoon%20edit.MP4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UtB8SG"
+        link: "https://drive.google.com/file/d/1VCMu95IpCDl8pZkf0FOTZYHv02QMP08u/view?usp=drive_link"
     },
 ]
